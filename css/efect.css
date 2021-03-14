@@ -1,0 +1,22 @@
+.slideLeft{
+    transform: translateX(-600px);
+    transition: all 0.3s linear;
+}.slideRigth{
+    transform: translateX(0);
+    transition: all 0.3s linear;
+}.none{
+    display: none;
+}.visible{
+    display: block;
+    animation: fadeVisibility 0.5s;
+    
+}
+@keyframes fadeVisibility {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: opacity linear;
+    }
+  }
