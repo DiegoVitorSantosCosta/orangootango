@@ -66,6 +66,9 @@ class Carousel{
     
     }
     clicks(click){
+        if(click){
+
+        
         click.addEventListener('click',()=>{
             if(click.classList == 'next'){
 
@@ -97,10 +100,8 @@ class Carousel{
                 this.slides[this.count].classList.add('carousel__item--visible')
                 
         })
-        
       
-      
-    }
+    }}
 }
 window.carousel = new Carousel()
 window.animations = new Animationn()

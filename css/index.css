@@ -295,3 +295,67 @@ opacity: 0.6;
 
 }
 /* FIM DE MENU E PRODUTOS */
+
+
+
+/* FOOTER */
+
+.footer{
+    text-align: center;
+    background-color: #09120F;
+}.redesSo svg{
+    margin: 0 10px;
+    text-decoration: none;
+    list-style: none;
+    width: 22px;
+    height: 22;
+}.footer p a{
+    text-decoration: none;
+   
+    padding-left: 30%;
+    display: block;
+    width: 70%;
+    text-align: left;
+    color: rgba(207, 207, 207, 0.897);
+    font-family: Arial, Helvetica, sans-serif;
+}.footer h3{
+    margin: 20px 0 30px;
+    text-align: left;
+    padding:40px 0 0 30%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}.developer p{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}.developer p a {
+    display: inline-block;
+    width: 10%;
+    color: blue;
+}
+
+/* FIM DO FOOTER */
+
+
+/*  PRODUTOS DE DETALHES */
+
+.productDescription p{
+    margin: 15px auto;
+    font-size: 20px;
+    display: block;
+}.productDescription{
+    padding-top: 80px;
+    box-sizing: border-box;
+}.adc{
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    background-color: blue;
+    text-align: center;
+}.cep{
+    margin-top: 30px;
+}.price{
+    font-size: 30px;
+}
+/* DIM PRODUTOS DE DETALHES */

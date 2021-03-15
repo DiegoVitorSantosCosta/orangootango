@@ -1,0 +1,42 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+  }.thumbs li img{
+      height: 90px;
+    max-width: 100%;
+  
+  }.content{
+    margin: 0 auto 0 50px;
+    width: 600px;
+  }.cover{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    border:  2px solid orange;
+
+  }.thumbs{
+    float: left;
+    width: 600px% ;
+    margin:20px ;
+    padding: 0;
+  }.thumbs li{
+    float: left;
+    width: 100%;
+    border: 2px solid #ccc;
+    width: calc((100% - 10%) /6);
+    cursor: pointer;
+    
+  }.thumbs li:not(:last-child){
+    margin-right: 2%;
+  }.thumbs li:hover{
+    border: 1px solid #999;
+  }.thumbs li.active{
+    border:2px solid orange
+  }.cepInput{
+      width: 100px;
+  }

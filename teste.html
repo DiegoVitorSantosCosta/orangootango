@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .thunbs{
+            float: left;
+            width: 50%;
+            text-align: center;
+        }.thunbs img{
+            float: left; width: 100%;
+            
+            padding: 2px;
+            background: red;
+        }
+    </style>
+</head>
+<script src="/jquery/jquery-3.6.0.min.js"></script>
+
+<body>
+    <article class="product-images">
+        <div class="cover">
+            <img src="/img/produtcDetais/celular.jpg" alt="">
+        </div>
+        <div class="thunbs">
+            <img src="/img/products/item1.jpg" alt="">
+            <img src="/img/products/item2.jpg" alt="">
+            <img src="/img/products/propagandaSlide1.png" alt="">
+        </div>
+    </article>
+    <script>
+        $(document).ready(()=>{
+            $('.thunbs img').click(()=>{
+                let cover = $('.cover img')
+                let thunb = $(this).attr('src')
+                cover.fadeTo('200','0',()=>{
+                    cover.attr('src',thunb)
+                    cover.fadeTo('150','1')
+                })
+            })
+        })
+    </script>
+</body>
+</html>
