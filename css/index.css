@@ -1,3 +1,7 @@
+section{
+    background-color:rgba(161, 161, 161, 0.8);
+    padding:20px;
+}
 .logo{
     margin-left: 20px;
     margin-top: 2px;
@@ -44,6 +48,12 @@
 }.fa-shopping-cart{
     font-size: 25px;
     color: white;
+}.fa-angle-right{
+    right: 25px;
+    font-size: 23px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.555);
+
 }.nav a{
     color:black;
 }.ul{
@@ -52,26 +62,33 @@
     position: absolute;
     z-index: 1000;
     width: 365px;
-    padding: 0;
-    background-color: orange;
+    padding: 0 ;
+    background-color: #F6830E;
+}.ul h3{
+    margin-top: 15px;
+    font-size: 18px;
+    padding-left: 30px;
 }.ul li a{
     color: black;
     font-size: 14px;
     display: block;
-    text-align: center;
+    padding: 10px 30px;
     text-decoration: none;
+}.ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.473);
+
 }.fa-bars{
     margin-right: 5px;
     font-size: 20px;
 }.main{
     
-    background-color: blue;
+    background-color: #CB2634;
     padding: 5px 0 5px 30px;
 }.main p{
     margin: 0;
     display: inline-block;
 }.todos{
-    border: solid blue 1px;
+    border: solid #CB2634 1px;
     cursor: pointer;
     padding:3px 13px ;
 }.todos:hover{
@@ -80,7 +97,7 @@
    
 }.main p a{
     margin: 0 5px ;
-    border: solid blue 1px;
+    border: solid #CB2634 1px;
     padding: 3px 13px;
     color: black;
     display: block;
@@ -145,6 +162,7 @@ opacity: 0.6;
     /* max-width: 600px; */
     position: relative;
     text-align: center;
+    padding:0;
   }
   
   .carousell .carousel__item,
@@ -164,17 +182,6 @@ opacity: 0.6;
     display: block;
     animation: fadeVisibility2 0.5s;
     
-  }.carousel__item >div{
-    width: 20%;
-    padding: 5px 0;
-  }.carousel__item >div img{
-      width: 80%;
-      height: 100px;
-  }.carousel__item >div a{
-      padding: 5px;
-      font-size: 18px;
-  }.contencao{
-      background-color: red;
   }
   
   .carousell .carousel__actions {
@@ -184,6 +191,11 @@ opacity: 0.6;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+   
+    height: 100%;
+  }.itemImg{
+      width: 100%;
+      background-color: turquoise;
   }
   
   .carousell .carousel__actions button {
@@ -206,13 +218,13 @@ opacity: 0.6;
     /* margin-right: 20px; */
   }
   .carousel__item img{
-      height: 400px;
+      height: 300px;
       width: 100%;
   }.left{
-      padding: 200px 0;
+      padding: 130px 0;
      
   }.rigth{
-    padding: 200px 0;
+    padding: 130px 0;
    
   }@keyframes fadeVisibility2 {
     0% {
@@ -264,6 +276,7 @@ opacity: 0.6;
 }.slide h1{
     text-align: center;
     margin-bottom: 20px;
+    padding-top: 20px;
     font-size: 25px;
 }.pa a{ 
     display: block;
@@ -275,9 +288,10 @@ opacity: 0.6;
     color: black;
     box-shadow: 1px 1px 10px 4px black;
     transition: all 0.2s linear;
-}#carouselExampleControlsNoTouching{
-    padding: 0 10px;
-    margin: 0 20px ;
+}.slide{
+    background-color: white;
+    padding: 0 10px 40px;
+    margin: 20px ;
 
 }
 /* FIM DE MENU E PRODUTOS */
